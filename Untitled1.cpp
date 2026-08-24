@@ -35,10 +35,16 @@ void prime(int number) {
 			count=0;
 			number--;
 		}
-			
+		if(counter==0){
+			break;
+		
+		}	
 		}
 	}while(number>2);
-cout<<"total prime numbers from 0 to your number is :"<<counter;
+if(counter>0){
+	  cout<<"total prime numbers from 0 to your number is :"<<counter;
+}	
+
 }
 int main() {
 	int prime_number = 0;
