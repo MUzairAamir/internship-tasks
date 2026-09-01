@@ -12,3 +12,7 @@ def fibiconi(number):
     return 1
 
   return fibiconi(number-1) + fibiconi(number-2)
+
+
+print(fibiconi(10))
+print(factorial(5))

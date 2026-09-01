@@ -32,3 +32,13 @@ class Triangle(Shape):
   def area(self):
     area = (self.length * self.width) / 2
     return area;  
+
+
+
+s1= Circle(5)
+s2= Rectangle(5,10)
+s3= Triangle(5,10)
+
+print(s1.area())
+print(s2.area())
+print(s3.area())
