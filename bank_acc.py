@@ -12,7 +12,7 @@ class BankAccount:
 #balance is private variable and can only be accessed within the class
 #blance should not be negative, if it is negative then it should be set to zero and a message should be printed
         if balance < 0:
-            print("kam se kam zero tu rakho payare ")
+            print("atleat balance should be 0")
             print(f"invalid balance for Customer name {self.name} account number: {self.acc_num}")
             self.__balance = 0
 
@@ -24,7 +24,7 @@ class BankAccount:
             print("Your updated balance is ",self.__balance)
             print("Deposit Successfully")
         elif amount < 0:
-            print("khair ha negative ma hi kari ja rahe ho")
+            print("Invalid deposit amount")
 # creating withdraw funtion to withdraw money from the account
     def withdraw(self, amount):
         if amount > 0 and amount <= self.__balance:
